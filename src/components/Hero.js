@@ -22,11 +22,11 @@ function Hero() {
 
       <div className="flex justify-between">
         <div className="flex md:flex-col">
-          <a href="https://twitter.com/CryptoPromos40/">
+          <a href="https://twitter.com/CryptoPromos40/" className="relative">
             <ImTwitter size={30} color="white" className="mb-8 mr-4 md:mr-0" />
           </a>
 
-          <a href="https://instagram.com/neato.crypto/">
+          <a href="https://instagram.com/neato.crypto/" className="relative">
             <RiInstagramFill size={30} color="white" />
           </a>
         </div>
@@ -34,7 +34,7 @@ function Hero() {
         <div className="cursor-pointer">
           <a
             href="https://t.me/ronsalpha/"
-            className="bg-white px-6 py-3 font-int rounded-md cursor-pointer"
+            className="bg-white px-6 py-3 font-int rounded-md relative"
             style={{ cursor: "pointer" }}
           >
             My Telegram Channel
@@ -73,7 +73,7 @@ function Hero() {
 
           <a
             href="https://instagram.com/neato.crypto"
-            className="px-6 py-3 text-white font-int rounded-md cursor-pointer"
+            className="px-6 py-3 text-white font-int rounded-md relative"
             style={{
               background:
                 "linear-gradient(99.88deg, #11EB4E -23.58%, #0A8F2F 119.08%)",

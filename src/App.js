@@ -7,11 +7,6 @@ import ScrollArea from './components/ScrollArea';
 function App() {
   return (
     <div>
-
-    <a href='htts://hellow.com' className='text-red-500'>
-      Hello world
-    </a>
-
       <Hero />
       <ScrollArea />
       <Connect />

@@ -14,6 +14,10 @@ code {
     monospace;
 }
 
+a {
+  position: relative;
+}
+
 @font-face {
   font-family: "Hanson-Bold";
 
@@ -759,11 +763,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-red-500{
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .text-white{

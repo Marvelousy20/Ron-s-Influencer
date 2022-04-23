@@ -14,6 +14,10 @@ code {
     monospace;
 }
 
+a {
+  position: relative;
+}
+
 
 @font-face {
   font-family: "Hanson-Bold";
