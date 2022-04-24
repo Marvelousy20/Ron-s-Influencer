@@ -17,22 +17,6 @@ export default function ScrollArea() {
             repeat: Infinity,
             duration: 6,
             repeatType: "reverse",
-            from: 1000,
-            to: 0,
-          }}
-          className="grid md:grid-cols-3 mb-32 gap-10"
-        >
-          <img src={img1} alt="1" className="max-w-[350px]" />
-          <img src={img2} alt="2" className="max-w-[350px]" />
-          <img src={img3} alt="3" className="max-w-[350px] place-content-end" />
-        </motion.div>
-
-        <motion.div
-          animate={{ x: 100 }}
-          transition={{
-            repeat: Infinity,
-            duration: 6,
-            repeatType: "reverse",
             from: 0,
             to: 1800,
           }}
@@ -41,6 +25,21 @@ export default function ScrollArea() {
           <img src={img4} alt="4" className="max-w-[350px]" />
           <img src={img5} alt="5" className="max-w-[350px]" />
           <img src={img6} alt="6" className="max-w-[350px]" />
+        </motion.div>
+        <motion.div
+          animate={{ x: 100 }}
+          transition={{
+            repeat: Infinity,
+            duration: 6,
+            repeatType: "reverse",
+            from: 1000,
+            to: 0,
+          }}
+          className="grid md:grid-cols-3 mb-32 gap-10"
+        >
+          <img src={img1} alt="1" className="max-w-[350px]" />
+          <img src={img2} alt="2" className="max-w-[350px]" />
+          <img src={img3} alt="3" className="max-w-[350px] place-content-end" />
         </motion.div>
       </div>
 
